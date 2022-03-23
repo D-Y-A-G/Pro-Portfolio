@@ -1,5 +1,5 @@
 import "./blog.scss";
 
 export default function Blog() {
-  return <div className="Blog">Blog</div>;
+  return <div className="blog" id="blog">Blog</div>;
 }
