@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
 
     // img {
     //   width: 600px;
@@ -39,8 +39,8 @@
     //   flex-wrap: wrap;
 
     .item {
-      width: 220px;
-      height: 150px;
+      width: 400px;
+      height: 300px;
       border-radius: 20px;
       border: 1px solid rgb(190, 186, 186);
       display: flex;
@@ -54,7 +54,14 @@
 
       h3 {
         position: absolute;
-        font-size: 20px;
+        font-size: 30px;
+        text-shadow: 2px 2px black;
+      }
+
+      p {
+        position: absolute;
+        font-size: 10px;
+        bottom: 50px;
       }
       img {
         width: 100%;
@@ -64,9 +71,9 @@
       }
 
       &:hover {
-        background-color: orangered;
+        background-color: rgb(207, 68, 8);
         img {
-          opacity: 0.2;
+          opacity: 0.15;
           z-index: 0;
         }
       }

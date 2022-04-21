@@ -1,13 +1,15 @@
 import "./projects.scss";
 import PortfolioList from "../project-list/ProjectList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { featured, web, responsive } from "../../projectData";
 
 export default function Projects() {
   const [selected, setSelected] = useState("featured");
+  const [data, setData] = useState([]);
   const list = [
     {
       id: "featured",
-      title: "Feature",
+      title: "Featured Projects",
     },
     {
       id: "web",
@@ -15,13 +17,32 @@ export default function Projects() {
     },
     {
       id: "responsive",
-      title: "Responsive",
+      title: "Responsive Design",
     },
-    {
-      id: "content",
-      title: "Content",
-    },
+    // {
+    //   id: "saas",
+    //   title: "SaaS (coming soon)",
+    // },
   ];
+
+  useEffect(() => {
+    switch (selected) {
+      case "featured":
+        setData(featured);
+        break;
+
+      case "web":
+        setData(web);
+        break;
+
+      case "responsive":
+        setData(responsive);
+        break;
+
+      default:
+        setData(featured);
+    }
+  }, [selected]);
 
   return (
     <div className="projects">
@@ -37,18 +58,13 @@ export default function Projects() {
         ))}
       </ul>
       <div className="container">
-        <div className="item">
-          <img src="/assets/ftf.jpg" alt="food-truck fix" />
-          <h3>Food-Truck Fix</h3>
-        </div>
-        <div className="item">
-          <img src="/assets/concert-tracker.jpg" alt="food-truck fix" />
-          <h3>Concert Tracker</h3>
-        </div>
-        <div className="item">
-          <img src="/assets/k9cupid.jpg" alt="food-truck fix" />
-          <h3>K9Cupid</h3>
-        </div>
+        {data.map((d) => (
+          <div className="item">
+            <img src={d.image} alt="food-truck fix" />
+            <h3>{d.title}</h3>
+            <p>{d.technology}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
