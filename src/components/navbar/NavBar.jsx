@@ -7,7 +7,7 @@ export default function NavBar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#hello" className="logo">
-            Denis Arce
+            Web Solutions.
           </a>
           <div className="itemContainer">
             <Person className="icon" />
@@ -23,6 +23,7 @@ export default function NavBar({ menuOpen, setMenuOpen }) {
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
+            
             <span className="line3"></span>
           </div>
         </div>
