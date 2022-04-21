@@ -33,7 +33,7 @@ export const projectData = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: k9Cupid,
     title: "K9Cupid",
     subtitle: "A social app for human's Best Friends!",
@@ -45,7 +45,7 @@ export const projectData = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: eCommerce,
     title: "E-Commerce",
     subtitle: "A back-end e-commerce website for a clothes store.",
@@ -57,7 +57,7 @@ export const projectData = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: noteTaker,
     title: "Note-Taker",
     subtitle: "Easy to use Note Taker, Lets you add and delete notes",
@@ -69,7 +69,7 @@ export const projectData = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: workOut,
     title: "Workout-Tracker",
     subtitle: "Track your workouts with an easy to use fitness application",
@@ -80,7 +80,7 @@ export const projectData = [
     technology: "JavaScript,Express, MySQL, CSS, HTML ",
   },
   {
-    id: 6,
+    id: 7,
     image: budget,
     title: "Budget-Tracker",
     subtitle:
