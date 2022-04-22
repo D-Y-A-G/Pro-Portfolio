@@ -28,6 +28,18 @@ export default function About() {
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
+          <p>About Me...</p>
+          <h5>
+            Full stack web developer with Business Management and Finance
+            experience educated at University of Texas at San Antonio. Skills in
+            HTML, CSS, and JavaScript, REACT, NoSQL, C++ and strengths in
+            managing teams, learning technology, creativity, and teamwork. I’m
+            excited to develop responsive websites, and provide unique
+            perspectives on how users interact with websites and applications.
+            Passionate about approaching programming challenges and leveraging
+            my skills as part of a fast-paced, ever-growing and quality driven
+            team to build better experiences for users.
+          </h5>
         </div>
         <a href="#projects">
           <img src="assets/down.png" alt="down arrow" />

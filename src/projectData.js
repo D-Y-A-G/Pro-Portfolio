@@ -185,6 +185,19 @@ export const web = [
 
 export const responsive = [
   {
+    id: 1,
+    image: fix,
+    title: "Food-Truck-Fix",
+    subtitle:
+      "A solution for Food-Truck-Owners to built custom mobile applications",
+    description:
+      "A MERN Stack application that allows for everyday food truck owners to create their own custom application that helps enhance their bussiness. Food truck owners will have the ability to add menu items, customize order experience, and change prices with ease.",
+    repo: "https://github.com/D-Y-A-G/food-truck-app-creator",
+    demo: "https://food-truck-fix.herokuapp.com/",
+    technology: "HTML, CSS, JS, Bulma, Stripe, MongoDB, REACT",
+  },
+
+  {
     id: 2,
     image: concertTracker,
     title: "Concert Tracker",
@@ -193,7 +206,7 @@ export const responsive = [
       "Front-end application created by music lovers that allows users to search a band/artist for upcoming events, provide them with ticket information pricing and links with the top music videos based on search input.",
     repo: "https://github.com/D-Y-A-G/pj1-sam-dav-den",
     demo: "https://d-y-a-g.github.io/pj1-sam-dav-den/",
-    technology: "HTML, CSS, JavaScript, Foundation, jQuery, Ticketmaster API",
+    technology: "HTML, CSS, JS, Foundation, jQuery, Ticketmaster API",
   },
 
   {
