@@ -1,5 +1,7 @@
 import "./blog.scss";
 import mobile from "../img/mobile.png";
+import webApp from "../img/web-app.jpeg";
+import arrow from "../img/down.png";
 
 export default function Blog() {
   return (
@@ -17,10 +19,14 @@ export default function Blog() {
                 <span>Project</span>
               </div>
             </div>
-            <div className="right"></div>
+            <div className="right">
+              <img src={webApp} alt="" />
+            </div>
           </div>
         </div>
       </div>
+      <img src={arrow} className="arrow left" alt="" />
+      <img src={arrow} className="arrow right" alt="" />
     </div>
   );
 }
