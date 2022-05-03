@@ -34,12 +34,12 @@
       align-items: center;
 
       input {
-        width: 300px;
+        width: 400px;
         height: 30px;
         font-size: 14px;
       }
       textarea {
-        width: 300px;
+        width: 400px;
         height: 200px;
         font-size: 14px;
       }
@@ -52,6 +52,15 @@
         border: none;
         border-radius: 10px;
         font-weight: bolder;
+
+        &focus {
+          outline: none;
+        }
+      }
+
+      span {
+        color: orangered;
+        font-weight: bold;
       }
     }
   }
