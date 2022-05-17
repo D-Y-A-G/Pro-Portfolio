@@ -1,12 +1,14 @@
 import "./menu.scss";
-import resume from "../img/DenisArceResumeWebDev2022.pdf"
+import resume from "../img/DenisArceResumeWebDev2022.pdf";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu " + (menuOpen && "active")}>
       <ul>
         <li>
-          <a href={resume} className="resume">Resume</a>
+          <a href={resume} className="resume">
+            Resume
+          </a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="#about">About</a>
@@ -17,9 +19,9 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li onClick={() => setMenuOpen(false)}>
           <a href="#projects">Portfolio</a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
+        {/* <li onClick={() => setMenuOpen(false)}>
           <a href="#blog">Blog</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

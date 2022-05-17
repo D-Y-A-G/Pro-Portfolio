@@ -1,5 +1,5 @@
 import "./navBar.scss";
-import { Mail, Person } from "@material-ui/icons";
+import { Mail, Phone } from "@material-ui/icons";
 
 export default function NavBar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,10 +7,10 @@ export default function NavBar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#hello" className="logo">
-            Logos
+            D-Y-A-G.
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
+            <Phone className="icon" />
             <span>+01 425 409 9122</span>
           </div>
           <div className="itemContainer">
