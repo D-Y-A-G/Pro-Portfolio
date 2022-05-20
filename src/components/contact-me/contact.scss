@@ -26,25 +26,29 @@
       color: rgb(50, 131, 160);
     }
     form {
-      width: 70%;
+      width: 80%;
       height: 70%;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      // justify-content: space-around;
       align-items: center;
 
       input {
+        margin-bottom: 20px;
         width: 400px;
         height: 30px;
         font-size: 14px;
+        background-color: rgb(204, 236, 247);
       }
       textarea {
         width: 400px;
         height: 200px;
         font-size: 14px;
+        background-color: rgb(204, 236, 247);
       }
 
       button {
+        margin-top: 20px;
         width: 150px;
         height: 30px;
         color: white;
@@ -59,8 +63,8 @@
       }
 
       span {
+        margin-top: 15px;
         color: orangered;
-        font-weight: bold;
       }
     }
   }

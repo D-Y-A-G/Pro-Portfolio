@@ -133,15 +133,15 @@ export const featured = [
   },
 
   {
-    id: 3,
-    image: k9Cupid,
-    title: "K9Cupid",
-    subtitle: "A social app for human's Best Friends!",
+    id: 8,
+    image: genart,
+    title: "Generative Art",
+    subtitle: "An application that uses vanilla Javascript to generate art",
     description:
-      "A built from scratch application for doggies to help them socialize and find other dogs with similar personalities and attributes to make fun and lasting friendships.",
-    repo: "https://github.com/D-Y-A-G/K9Cupid",
-    demo: "https://k9-cupid-final.herokuapp.com/",
-    technology: "HTML, CSS, JavaScript, Bulma, HandleBars, MySQL",
+      "A Javascript application that generates art by clicking on mouse and draging to creat beaufiful flower paintings",
+    repo: "https://github.com/D-Y-A-G/Gen-Art",
+    demo: "https://d-y-a-g.github.io/Gen-Art/",
+    technology: "JavaScript, HTML, CSS",
   },
 ];
 
@@ -160,15 +160,15 @@ export const web = [
   },
 
   {
-    id: 8,
-    image: genart,
-    title: "Generative Art",
-    subtitle: "An application that uses vanilla Javascript to generate art",
+    id: 3,
+    image: k9Cupid,
+    title: "K9Cupid",
+    subtitle: "A social app for human's Best Friends!",
     description:
-      "A Javascript application that generates art by clicking on mouse and draging to creat beaufiful flower paintings",
-    repo: "https://github.com/D-Y-A-G/Gen-Art",
-    demo: "https://d-y-a-g.github.io/Gen-Art/",
-    technology: "JavaScript, HTML, CSS",
+      "A built from scratch application for doggies to help them socialize and find other dogs with similar personalities and attributes to make fun and lasting friendships.",
+    repo: "https://github.com/D-Y-A-G/K9Cupid",
+    demo: "https://k9-cupid-final.herokuapp.com/",
+    technology: "HTML, CSS, JavaScript, Bulma, HandleBars, MySQL",
   },
 
   {

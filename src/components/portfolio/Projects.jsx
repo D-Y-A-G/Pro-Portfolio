@@ -63,6 +63,9 @@ export default function Projects() {
             <img src={d.image} alt="food-truck fix" />
             <h3>{d.title}</h3>
             <p>{d.technology}</p>
+            <a className="demo" href={d.repo}>
+              Check it out!
+            </a>
           </div>
         ))}
       </div>
