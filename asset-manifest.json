@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pro-Portfolio/static/css/main.a46caf10.css",
+    "main.js": "/Pro-Portfolio/static/js/main.d66802a5.js",
+    "static/media/FTF.jpg": "/Pro-Portfolio/static/media/FTF.55ece4b5b92037256087.jpg",
+    "static/media/concert-tracker.jpg": "/Pro-Portfolio/static/media/concert-tracker.bbc9bb8553a58f970152.jpg",
+    "static/media/e-commerce.png": "/Pro-Portfolio/static/media/e-commerce.cca2fa84807fc78b298e.png",
+    "static/media/Gen-Art.jpg": "/Pro-Portfolio/static/media/Gen-Art.9629e141e4ed2ea5e130.jpg",
+    "static/media/k9cupid.jpg": "/Pro-Portfolio/static/media/k9cupid.d6fb0f78574d565f248f.jpg",
+    "static/media/contact.png": "/Pro-Portfolio/static/media/contact.3115d2ed109b2633fe76.png",
+    "static/media/budget-tracker.png": "/Pro-Portfolio/static/media/budget-tracker.87c1f5d072f18927ff80.png",
+    "static/media/DenisArceResumeWebDev2022.pdf": "/Pro-Portfolio/static/media/DenisArceResumeWebDev2022.2ee9775961d82acc8389.pdf",
+    "static/media/workout-tracker.png": "/Pro-Portfolio/static/media/workout-tracker.665ad93a961b28842f64.png",
+    "static/media/note-taker.png": "/Pro-Portfolio/static/media/note-taker.6d52ee3b76b7359f9b41.png",
+    "index.html": "/Pro-Portfolio/index.html",
+    "main.a46caf10.css.map": "/Pro-Portfolio/static/css/main.a46caf10.css.map",
+    "main.d66802a5.js.map": "/Pro-Portfolio/static/js/main.d66802a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a46caf10.css",
+    "static/js/main.d66802a5.js"
+  ]
+}
