@@ -1,6 +1,8 @@
 import "./about.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import den from "../img/DA.jpg";
+import darrow from "../img/down.png";
 
 export default function About() {
   const textRef = useRef();
@@ -18,7 +20,7 @@ export default function About() {
     <div className="about" id="about">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/DA.jpg" alt="portrait" />
+          <img src={den} alt="portrait" />
         </div>
       </div>
       <div className="right">
@@ -42,7 +44,7 @@ export default function About() {
           </h5>
         </div>
         <a href="#projects">
-          <img src="assets/down.png" alt="down arrow" />
+          <img src={darrow} alt="down arrow" />
         </a>
       </div>
     </div>

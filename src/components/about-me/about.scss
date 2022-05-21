@@ -4,6 +4,11 @@
   background-color: white;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .left {
     flex: 0.5;
     overflow: hidden;
@@ -18,8 +23,16 @@
       justify-content: center;
       // float: right;
 
+      @include mobile {
+        align-items: flex-start;
+      }
+
       img {
         height: 100%;
+
+        @include mobile {
+          height: 30%;
+        }
       }
     }
   }
@@ -72,7 +85,6 @@
         font-size: 20px;
         font-weight: normal;
         align-items: center;
-        
       }
     }
     a {
@@ -81,7 +93,7 @@
       left: 75%;
 
       img {
-        width: 30px;
+        width: 40px;
         animation: arrowBlink 2s infinite;
       }
 
