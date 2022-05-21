@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Pro-Portfolio/static/css/main.a46caf10.css",
-    "main.js": "/Pro-Portfolio/static/js/main.d66802a5.js",
+    "main.css": "/Pro-Portfolio/static/css/main.1ada0745.css",
+    "main.js": "/Pro-Portfolio/static/js/main.4cf32390.js",
+    "static/media/DA.jpg": "/Pro-Portfolio/static/media/DA.fc8bcd2aa21bd4b676ae.jpg",
     "static/media/FTF.jpg": "/Pro-Portfolio/static/media/FTF.55ece4b5b92037256087.jpg",
     "static/media/concert-tracker.jpg": "/Pro-Portfolio/static/media/concert-tracker.bbc9bb8553a58f970152.jpg",
     "static/media/e-commerce.png": "/Pro-Portfolio/static/media/e-commerce.cca2fa84807fc78b298e.png",
@@ -13,11 +14,11 @@
     "static/media/workout-tracker.png": "/Pro-Portfolio/static/media/workout-tracker.665ad93a961b28842f64.png",
     "static/media/note-taker.png": "/Pro-Portfolio/static/media/note-taker.6d52ee3b76b7359f9b41.png",
     "index.html": "/Pro-Portfolio/index.html",
-    "main.a46caf10.css.map": "/Pro-Portfolio/static/css/main.a46caf10.css.map",
-    "main.d66802a5.js.map": "/Pro-Portfolio/static/js/main.d66802a5.js.map"
+    "main.1ada0745.css.map": "/Pro-Portfolio/static/css/main.1ada0745.css.map",
+    "main.4cf32390.js.map": "/Pro-Portfolio/static/js/main.4cf32390.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46caf10.css",
-    "static/js/main.d66802a5.js"
+    "static/css/main.1ada0745.css",
+    "static/js/main.4cf32390.js"
   ]
 }
