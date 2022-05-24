@@ -15,7 +15,11 @@ export default function Contact() {
       </div>
       <div className="right">
         <h2>Contact Me!</h2>
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          action="https://formsubmit.co/be9523e987b766cf08a9a52cdfed2eb7"
+          method="POST"
+        >
           <input type="text" placeholder="Name" />
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
